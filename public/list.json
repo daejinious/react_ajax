@@ -1,14 +1,14 @@
 [
   {
     "id": 1,
-    "title": "HTML"
+    "title": "Html"
   },
   {
     "id": 2,
-    "title": "CSS"
+    "title": "Css"
   },
   {
     "id": 3,
-    "title": "JS"
+    "title": "Js"
   }
 ]

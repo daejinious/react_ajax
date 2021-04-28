@@ -4,9 +4,9 @@ function PresentationNav({ list }) {
   return (
     <nav>
       <ul>
-        {list.map((value) => (
-          <li>
-            <a href={value.id}>{value.title}</a>
+        {list.map(({ id, title }) => (
+          <li key={id}>
+            <a href={id}>{title}</a>
           </li>
         ))}
       </ul>

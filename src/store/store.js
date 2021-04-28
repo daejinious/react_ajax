@@ -4,17 +4,7 @@ import { composeWithDevTools } from 'redux-devtools-extension' // 리덕스 개�
 export default createStore((state, action) => {
   if (state === undefined) {
     return {
-      list: [
-        {
-          id: 1,
-        },
-        {
-          id: 2,
-        },
-        {
-          id: 3,
-        },
-      ],
+      list: [],
     }
   }
 
